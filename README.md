@@ -1,1 +1,1 @@
-# Assign-03-Java-DecToBinORFindIndex
+# Assign-03-Java-DecToBinOrFindIndex
