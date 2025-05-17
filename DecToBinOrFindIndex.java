@@ -212,8 +212,8 @@ final class DecToBinOrFindIndex {
                         if (index == -1) {
                             // Write that character is not found to output file
                             fileWriter.write(
-                                "'" + aChar + "' is not found in '"
-                                + line + "'.\n");
+                                    "'" + aChar + "' is not found in '"
+                                            + line + "'.\n");
                         } else {
                             // Write the index of the character to output file
                             fileWriter.write(
@@ -225,16 +225,15 @@ final class DecToBinOrFindIndex {
                     // Close the file writer and scanner
                     fileWriter.close();
                     fileScanner.close();
-
-                    // Display a success message
-                    System.out.println(
-                            "Successfully written to 'findIndexOutput.txt'");
-
                 // If there is a file error
                 } catch (Exception exception) {
                     System.out.println(
-                            "Unable to write to 'findIndexOutput.txt'.");
+                        "Unable to write to 'findIndexOutput.txt'.");
                 }
+
+                // Display a success message
+                System.out.println(
+                        "Successfully written to 'findIndexOutput.txt'");
             // If the user enters an invalid choice
             } else {
                 // Display an error message
